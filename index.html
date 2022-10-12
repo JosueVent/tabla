@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--css only -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Tabla</title>
+</head>
+<body>
+    <table class="table table-striped table-hover">
+        <thead class="table table-bordered table-dark">
+          <tr>
+            <th scope="col">Empleado</th>
+            <th scope="col">ID</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Unidad</th>
+            <th scope="col">Salario</th>
+            <th scope="col">Opciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <figure class="figure">
+              <img src="img/usuario.png" width="60px" class="figure-img img-fluid rounded" alt="Imagen de Empleada Lilia">
+              <figcaption class="figure-caption">Foto Empleado.</figcaption>
+            </figure>
+          </td>
+            <td>517</td>
+            <td>Lilia</td>
+            <td><span class="badge text-bg-info"><i style="color: azure;" onclick="mensaje()">Gerencia</i></span></td>
+            <td><span class="badge text-bg-warning"><i class="bi bi-cash" style="font-size: 1rem;"></i>$1600</span></td>
+            <td>
+              <button class="btn btn-info">
+                <i class="bi bi-pencil-square" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+              <button class="btn btn-danger">
+                <i class="bi bi-archive-fill" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <figure class="figure">
+                <img src="img/usuario1.png" width="60px" class="figure-img img-fluid rounded" alt="Imagen de Empleada Lilia">
+                <figcaption class="figure-caption">Foto Empleado.</figcaption>
+              </figure>
+            </td>
+            <td>571</td>
+            <td>Marcos</td>
+            <td><span class="badge text-bg-info"><i style="color: azure;" onclick="mensaje()">planificación</i></span></td>
+            <td><span class="badge text-bg-warning"><i class="bi bi-cash" style="font-size: 1rem;"></i>$600</span></td>
+            <td>
+              <button class="btn btn-info">
+                <i class="bi bi-pencil-square" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+              <button class="btn btn-danger">
+                <i class="bi bi-archive-fill" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <figure class="figure">
+                <img src="img/usuario2.png" width="60px" class="figure-img img-fluid rounded" alt="Imagen de Empleada Lilia">
+                <figcaption class="figure-caption">Foto Empleado.</figcaption>
+              </figure>
+            </td>
+            <td>798</td>
+            <td>Juan</td>
+            <td><span class="badge text-bg-info"><i style="color: azure;" onclick="mensaje()">Recursos Humanos</i></span></td>
+            <td><span class="badge text-bg-warning"><i class="bi bi-cash" style="font-size: 1rem;"></i>$500</span></td>
+            <td>
+              <button class="btn btn-info">
+                <i class="bi bi-pencil-square" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+              <button class="btn btn-danger">
+                <i class="bi bi-archive-fill" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+            </td>
+          </tr>
+          <td>
+            <figure class="figure">
+              <img src="img/usuarioMario.png" width="60px" class="figure-img img-fluid rounded" alt="Imagen de Empleada Lilia">
+              <figcaption class="figure-caption">Foto Empleado.</figcaption>
+            </figure>
+          </td>
+            <td>685</td>
+            <td>Mario</td>
+            <td><span class="badge text-bg-info"><i style="color: azure;" onclick="mensaje()">Finanzas</i></span></td>
+            <td><span class="badge text-bg-warning"><i class="bi bi-cash" style="font-size: 1rem;"></i>$900</span></td>
+            <td>
+              <button class="btn btn-info">
+                <i class="bi bi-pencil-square" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+              <button class="btn btn-danger">
+                <i class="bi bi-archive-fill" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+            </td>
+          </tr>
+          <td>
+            <figure class="figure">
+              <img src="img/usuarioKatia.png" width="60px" class="figure-img img-fluid rounded" alt="Imagen de Empleada Lilia">
+              <figcaption class="figure-caption">Foto Empleado.</figcaption>
+            </figure>
+          </td>
+            <td>236</td>
+            <td>Katia</td>
+            <td><span class="badge text-bg-info"><i style="color: azure;" onclick="mensaje()">Protocolo</i></span></td>
+            <td><span class="badge text-bg-warning"><i class="bi bi-cash" style="font-size: 1rem;"></i>$500</span></td>
+            <td>
+              <button class="btn btn-info">
+                <i class="bi bi-pencil-square" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+              <button class="btn btn-danger">
+                <i class="bi bi-archive-fill" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="col">Total</th>
+            <th scope="col">ID</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Unidad</th>
+            <th scope="col">Salario</th>
+            <th scope="col">Opciones</th>
+          </tr>
+        </thead>
+        </tfoot>
+      </table>    
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+        function mensaje() {
+                 
+            Swal.fire({
+                title: 'Información',
+                text: 'Informacion del Area de Gerencia ' ,
+                imageUrl: 'img/gerente.png',
+                imageWidth: 200,
+                imageHeight: 100,
+                imageAlt: 'Información de Unidad',
+                html:
+                    '✉️ Info@gerencia.net<br />, ' +
+                    
+                    '📱 +503 7999-5314',
+                  focusConfirm: false,
+                  confirmButtonText:
+                    '<i class="fa fa-thumbs-up"></i> Listo!',
+                 
+                })
+            }
+</script>
+</html>
