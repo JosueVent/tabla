@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--css only -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Tabla</title>
+</head>
+<body>
+  <section class="wrap">
+    <h1>Menú La Fogata</h1>
+  </section>
+    <table class="table table-striped table-hover">
+        <thead class="table table-bordered table-dark">
+          <tr>
+            <th scope="col">Acompañamientos</th>
+            <th scope="col">Ensaladas y Entradas</th>
+            <th scope="col">Brasas principales</th>
+            <th scope="col">Postres</th>
+            <th scope="col">Bebidas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <figure class="figure">
+              <img src="comidas/Recurso 5.png" width="100px" class="figure-img img-fluid rounded" alt="Imagen de Empleada Lilia">
+              <figcaption class="figure-caption"></figcaption>
+              </figure>
+            </td>
+            <td>
+              <figure class="figure">
+              <img src="comidas/Recurso 1.png" width="100px" class="figure-img img-fluid rounded" alt="Imagen de Empleada Lilia">
+              <figcaption class="figure-caption"></figcaption>
+              </figure>
+            </td>
+            <td>
+              <figure class="figure">
+              <img src="comidas/Recurso 3.png" width="100px" class="figure-img img-fluid rounded" alt="Imagen de Empleada Lilia">
+              <figcaption class="figure-caption"></figcaption>
+              </figure>
+            </td>
+            <td>
+              <figure class="figure">
+              <img src="comidas/Recurso 7.png" width="90px" class="figure-img img-fluid rounded" alt="Imagen de Empleada Lilia">
+              <figcaption class="figure-caption"></figcaption>
+              </figure>
+            </td>
+            <td>
+              <figure class="figure">
+              <img src="comidas/Recurso 9.png" width="90px" class="figure-img img-fluid rounded" alt="Imagen de Empleada Lilia">
+              <figcaption class="figure-caption"></figcaption>
+              </figure>
+            </td>
+        </tr>
+        
+        </tr>   
+            <td><span class="badge text-bg-info"><i style="color: azure;" onclick="mensaje()">Alitas de pollo</i></span></td>
+            <td><span class="badge text-bg-info"><i style="color: azure;" onclick="mensaje()">Ensalada de queso de cabra</i></span></td>
+            <td><span class="badge text-bg-info"><i style="color: azure;" onclick="mensaje()">Chuleta de ternera</i></span></td>
+            <td><span class="badge text-bg-info"><i style="color: azure;" onclick="mensaje()">Helado sabor a elegir</i></span></td>
+            <td><span class="badge text-bg-info"><i style="color: azure;" onclick="mensaje()">Limonada de Piña</i></span></td>
+        </tr>
+            <td><span class="badge text-bg-warning"><i class="bi bi-cash" style="font-size: 1rem;"></i>$5.00</span></td>
+            <td><span class="badge text-bg-warning"><i class="bi bi-cash" style="font-size: 1rem;"></i>$12.00</span></td>
+            <td><span class="badge text-bg-warning"><i class="bi bi-cash" style="font-size: 1rem;"></i>$16.00</span></td>
+            <td><span class="badge text-bg-warning"><i class="bi bi-cash" style="font-size: 1rem;"></i>$3.00</span></td>
+            <td><span class="badge text-bg-warning"><i class="bi bi-cash" style="font-size: 1rem;"></i>$3.00</span></td>
+        <tr>
+        <tr>
+            <td>
+              <button class="btn btn-info">
+                <i class="bi bi-pencil-square" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+              <button class="btn btn-danger">
+                <i class="bi bi-archive-fill" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-info">
+                <i class="bi bi-pencil-square" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+              <button class="btn btn-danger">
+                <i class="bi bi-archive-fill" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+            </td><td>
+              <button class="btn btn-info">
+                <i class="bi bi-pencil-square" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+              <button class="btn btn-danger">
+                <i class="bi bi-archive-fill" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+            </td><td>
+              <button class="btn btn-info">
+                <i class="bi bi-pencil-square" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+              <button class="btn btn-danger">
+                <i class="bi bi-archive-fill" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+            </td><td>
+              <button class="btn btn-info">
+                <i class="bi bi-pencil-square" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+              <button class="btn btn-danger">
+                <i class="bi bi-archive-fill" style="font-size: 1.5rem; color: azure;"></i>
+              </button>
+            </td>
+        
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="col">Total</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        </tfoot>
+      </table>    
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="sweetalert2.min.js"></script>
+<link rel="stylesheet" href="sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+        function mensaje() {
+                 
+            Swal.fire({
+                title: 'Información',
+                text: 'Informacion del Area de Gerencia ' ,
+                image: 'comidas\Recurso 6.png',
+                imageWidth: 200,
+                imageHeight: 100,
+                imageAlt: 'Información de Unidad',
+                
+                html:
+                    '✉️ Info@gerencia.net<br />, ' +
+                    
+                    '📱 ',
+                  focusConfirm: false,
+                  CancelButtonColor:  '<i class="fa fa-thumbs-up"></i> Listo!',
+                  confirmButtonText:
+                    '<i class="fa fa-thumbs-up"></i> Ordenar!',
+                 
+                })
+            }
+</script>
+</html>
